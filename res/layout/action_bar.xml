@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+  <Button
+	android:layout_width="20dp"
+	android:layout_height="20dp"
+	android:padding="10dp"
+	android:id="@+id/menu_drawer"
+	android:background="@drawable/menu_icon"
+	android:layout_gravity="center_vertical" />    
+
+  <Button
+	android:layout_width="100dp"
+	android:layout_height="fill_parent"
+	android:id="@+id/playlist_tab"
+	android:text="Playlists"
+	android:layout_gravity="center_vertical"
+	android:background="@android:color/transparent" />
+
+  <Button
+	android:layout_width="100dp"
+	android:layout_height="fill_parent"
+	android:id="@+id/songs_tab"
+	android:text="Songs"
+	android:layout_gravity="center_vertical"
+	android:background="@android:color/transparent" />
+
+  <Button
+	android:layout_width="100dp"
+	android:layout_height="fill_parent"
+	android:id="@+id/player_tab"
+	android:text="Player"
+	android:layout_gravity="center_vertical"
+	android:background="@android:color/transparent" />
+	
+</LinearLayout>
